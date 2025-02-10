@@ -120,3 +120,35 @@ header {
 header h1, header p, .categories h2 {
     animation: fadeIn 1s ease-in-out;
 }
+
+footer {
+    background: #003366; /* Deep Blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+footer .social-links {
+    margin: 10px 0;
+}
+
+footer .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+footer .social-links a:hover {
+    transform: scale(1.2); /* Slight zoom effect */
+    color: #ffcc00; /* Changes color on hover */
+}
+
+footer .credit {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 13px;
+}
