@@ -166,16 +166,21 @@ footer .credit {
 .slideshow-container {
     position: relative;
     width: 100%;
+    height: 400px; /* Fixed height for consistency */
 }
 
 /* Each Slide */
 .slide {
     display: none;
     width: 100%;
+    height: 100%; /* Ensure all slides take full height */
 }
 
+/* Make All Images the Same Size */
 .slide img {
     width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images fit nicely without stretching */
     border-radius: 10px;
 }
 
