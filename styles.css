@@ -152,3 +152,39 @@ footer .credit {
     font-style: italic;
     font-size: 13px;
 }
+
+/* Slideshow Container */
+.slideshow {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Each Slide */
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Fade Animation */
+.fade {
+    animation: fadeEffect 1.5s ease-in-out;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0.5; }
+    to { opacity: 1; }
+}
