@@ -189,6 +189,36 @@ footer .credit {
     animation: fadeEffect 1.5s ease-in-out;
 }
 
+/* Slideshow Container - Full Width */
+.slideshow {
+    width: 100vw; /* Full viewport width */
+    max-width: 100%; /* Ensure it never exceeds the screen width */
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0; /* Remove border-radius for full-width effect */
+}
+
+/* Slideshow Inner Container */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+}
+
+/* Each Slide */
+.slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* Make Images Fit Perfectly */
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures no distortion */
+}
+
 @keyframes fadeEffect {
     from { opacity: 0.5; }
     to { opacity: 1; }
