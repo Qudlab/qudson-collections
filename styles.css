@@ -224,11 +224,3 @@ footer .credit {
     to { opacity: 1; }
 }
 
-/* Slideshow Image Fix */
-.slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* Prevents stretching and keeps image clarity */
-    image-rendering: crisp-edges; /* Helps maintain sharpness */
-    image-rendering: -webkit-optimize-contrast; /* Enhances clarity in WebKit browsers */
-}
